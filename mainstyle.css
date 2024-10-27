@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white(126, 122, 122);
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* MAIN PAGE I NAVBAR */
+
+/* Navbar*/
+.logo, .nav, li {
+	display: inline-block;
+}
+
+.logo {
+	vertical-align: middle;
+}
+
+.nav {
+	text-align: right;
+	width: 80%;
+}
+
+.nav ul li {
+	margin: 0 25px;
+}
+
+.nav ul li a {
+	text-decoration: none;	
+	color: #27477d;
+	font-size: 5vmin;
+}
+.nav a {
+	transition: 0.5s;
+}
+.nav a:hover {
+	color: #435472;
+}
+#header {
+	background-color: gainsboro;
+	position: sticky;
+	top: 0px;
+}
+/* Moto */
+.motoimage {
+	width: 45%;
+	padding: 0px;
+	vertical-align: top;
+}
+.mototrain {
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	border-width: 2px;
+}
+.mototext {
+	width: 45%;
+	text-align: center;
+	font-size: 10vmin;
+}
+.motoimage, .mototext {
+	display: inline-flex;
+}
+
+/* Nai-novi vlakove */
+.newest {
+	text-align: center;
+}
+
+.newest .newestheader {
+	width: 70%;
+	margin: 30px auto;
+	border-top: 3px solid #27477d	;
+	border-bottom: 3px solid #27477d;
+	padding: 25px 0;
+	font-size: 25px;
+}
+
+.newest .newtrain {
+	display: inline-block;
+	width: 50%;
+	background: #fff;
+	border: 6px outset gainsboro;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 20px;
+}
+
+.newest .newtrain img {
+	width: 100%;
+}
+
+.newest .newtrain h3 {
+	font-size: 70px;
+}
+
+.newtrain p {
+	font-size: 30px;
+}
+
+.moreinfo {
+	text-decoration: none;
+	color: white;
+	background: #27477d;
+	font-size: 30px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.moreinfo:hover {
+	background-color: #435472;
+}
+/* Butona "vizh oshte" */
+.seemorebox {
+	display: flex;
+}
+.seemore {
+	margin: auto;
+	text-decoration: none;
+	color: white;
+	background: #27477d;
+	font-size: 30px;
+	padding: 20px 60px;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.seemore:hover {
+	background-color: #435472;
+}
+
+
+
+
+/* KONTAKTI */
+.infobox h1 {
+	text-align: center;
+}
+.map {
+	text-align: center;
+}
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 2.3vmin;
+}
+.adres {
+	text-align: center;
+	font-size: 3vmin;
+}
+
