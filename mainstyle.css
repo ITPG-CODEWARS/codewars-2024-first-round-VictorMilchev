@@ -39,7 +39,11 @@ body {
 	border-color: black;
 	border-radius: 10px;
 	border-width: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: #e8e9e6;
 }
+
 .nav a {
 	transition: 0.5s;
 }
