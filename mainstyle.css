@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: white(126, 122, 122);
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background: #e8e9e6;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container {
     width: 100%;
@@ -35,15 +35,20 @@ body {
 	text-decoration: none;	
 	color: #27477d;
 	font-size: 5vmin;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	border-width: 2px;
 }
 .nav a {
 	transition: 0.5s;
 }
 .nav a:hover {
 	color: #435472;
+	padding: 10px;
 }
 #header {
-	background-color: gainsboro;
+	background-color: rgb(184, 184, 184);
 	position: sticky;
 	top: 0px;
 }
@@ -79,7 +84,7 @@ body {
 	border-top: 3px solid #27477d	;
 	border-bottom: 3px solid #27477d;
 	padding: 25px 0;
-	font-size: 25px;
+	font-size: 5vmin;
 }
 
 .newest .newtrain {
@@ -115,6 +120,7 @@ body {
 }
 .moreinfo:hover {
 	background-color: #435472;
+	padding: 10px;
 }
 /* Butona "vizh oshte" */
 .seemorebox {
@@ -132,6 +138,7 @@ body {
 }
 .seemore:hover {
 	background-color: #435472;
+	padding: 30px;
 }
 
 
